@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="MillenniumOSS"
+	    fetch="https://github.com/MillenniumOSS"
+	    clone-depth="1" />
+
+ <!-- Device -->
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="MillenniumOSS" revision="lineage-23.0" />
+ <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="MillenniumOSS" revision="lineage-23.0" />
+ <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="MillenniumOSS" revision="sixteen" />
+
+ <!-- Kernel -->
+ <project path="device/tecno/LG8n-kernel" name="android_device_tecno_LG8n-kernel" remote="MillenniumOSS" revision="sixteen" />
+ <project path="device/tecno/LG7n-kernel" name="android_device_tecno_LG7n-kernel" remote="MillenniumOSS" revision="sixteen" />
+
+ <!--Vendor -->
+ <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n" remote="MillenniumOSS" revision="sixteen" />
+ <project path="vendor/tecno/LG7n" name="android_vendor_tecno_LG7n" remote="MillenniumOSS" revision="sixteen" />
+ <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="MillenniumOSS" revision="sixteen" />
+
+ <!-- Dolby -->
+ <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen" />
+
+ <!--JamesDSP -->
+ <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
+
+ <!-- Device Support stuffs -->
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
+ <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen"/>
+ <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen" />
+</manifest>
