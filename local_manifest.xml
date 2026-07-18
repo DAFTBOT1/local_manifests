@@ -9,11 +9,14 @@
     <remote name="apichata"
             fetch="https://github.com/JarvisTeamOfficial"
             clone-depth="1" />
+    <remote name="DAFTBOT1"
+            fetch="https://github.com/DAFTBOT1"
+            clone-depth="1" />
 
-    <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="akif-github" revision="16.2" />
+    <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="DAFTBOT1" revision="16.2" />
     <project path="device/infinix/X678B-kernel" name="android_device_infinix_X678B-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
     <project path="vendor/infinix/X678B" name="android_vendor_infinix_X678B" remote="akif-github" revision="sixteen-qpr2" />
-    <project path="device/infinix/X6833B" name="android_device_infinix_X6833B" remote="akif-github" revision="16.2" />
+    <project path="device/infinix/X6833B" name="android_device_infinix_X6833B" remote="DAFTBOT1" revision="16.2" />
     <project path="device/infinix/X6833B-kernel" name="android_device_infinix_X6833B-kernel" remote="akif-github" revision="sixteen-mck"/>
     <project path="vendor/infinix/X6833B" name="proprietary_vendor_infinix_X6833B" remote="apichata" revision="lineage-23.2" />
     <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="akif-github" revision="16.2" />
