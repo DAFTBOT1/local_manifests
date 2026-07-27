@@ -35,7 +35,6 @@
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2-rebase"/>
     <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-oem" />
 
-    <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen-redesign" />
     <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
     <remove-project path="packages/apps/Aperture" />
     <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="MillenniumOSS" revision="lineage-23.2" />
