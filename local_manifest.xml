@@ -24,11 +24,11 @@
     <project path="vendor/tecno/LH7n" name="android_vendor_tecno_LH7n" remote="MillenniumOSS" revision="sixteen-qpr2" />
 
     <project path="external/mtk-wifi-driver-cmd" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen-wifi" clone-depth="1">
-    <linkfile src="wlan/wpa_supplicant_8_lib/mediatek_driver_cmd_nl80211.c" dest="device/infinix/X6833B/lib_driver_cmd_mt66xx/mediatek_driver_cmd_nl80211.c" />
-    <linkfile src="wlan/wpa_supplicant_8_lib/mediatek_driver_nl80211.h" dest="device/infinix/X6833B/lib_driver_cmd_mt66xx/mediatek_driver_nl80211.h" />
-    <linkfile src="wlan/wpa_supplicant_8_lib/Android.bp" dest="device/infinix/X6833B/lib_driver_cmd_mt66xx/Android.bp" />
+        <linkfile src="wlan/wpa_supplicant_8_lib/mediatek_driver_cmd_nl80211.c" dest="device/infinix/X6833B/lib_driver_cmd_mt66xx/mediatek_driver_cmd_nl80211.c" />
+        <linkfile src="wlan/wpa_supplicant_8_lib/mediatek_driver_nl80211.h" dest="device/infinix/X6833B/lib_driver_cmd_mt66xx/mediatek_driver_nl80211.h" />
+        <linkfile src="wlan/wpa_supplicant_8_lib/Android.bp" dest="device/infinix/X6833B/lib_driver_cmd_mt66xx/Android.bp" />
     </project>
-    
+
     <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen-qpr2" />
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
     <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
