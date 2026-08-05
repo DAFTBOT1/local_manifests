@@ -16,7 +16,7 @@
     <project path="device/itel/S666LN-kernel" name="android_device_itel_S666LN-kernel" remote="DAFTBOT1" revision="sixteen" />
 
     <!-- MCK -->
-    <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen-q2" />
+    <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen-qpr2" />
 
     <!-- JamesDSP -->
     <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
