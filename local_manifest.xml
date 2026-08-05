@@ -15,6 +15,10 @@
     <!-- Kernel -->
     <project path="device/itel/S666LN-kernel" name="android_device_itel_S666LN-kernel" remote="DAFTBOT1" revision="sixteen" />
 
+    <!-- Vendor -->
+    <project path="vendor/itel/S666LN" name="vendor_itel_S666LN" remote="DAFTBOT1" revision="lineage-23.2" />
+    
+    
     <!-- MCK -->
     <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen-qpr2" />
 
