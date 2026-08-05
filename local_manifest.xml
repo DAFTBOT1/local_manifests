@@ -16,7 +16,7 @@
     <project path="device/itel/S666LN-kernel" name="android_device_itel_S666LN-kernel" remote="DAFTBOT1" revision="sixteen" />
 
     <!-- Vendor -->
-    <project path="vendor/itel/S666LN" name="vendor_itel_S666LN" remote="DAFTBOT1" revision="lineage-23.2" />
+    <project path="vendor/itel/S666LN" name="vendor_itel_S666LN" remote="DAFTBOT1" revision="cnb" />
     
     
     <!-- MCK -->
