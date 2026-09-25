@@ -6,14 +6,32 @@
     <remote name="vannashcroft-cb"
             fetch="https://codeberg.org/vannashcroft"
             clone-depth="1" />
-    <remote name="LineageOS"
+    <remote name="lineageos"
             fetch="https://github.com/LineageOS"
             clone-depth="1" />
 
-    <project path="device/infinix/X6833B" name="android_device_infinix_X6833B" remote="vannashcroft-gh" revision="fifteen-bp1a" />
-    <project path="device/infinix/X6833B-kernel" name="device_infinix_X6833B-kernel" remote="vannashcroft-gh" revision="lineage-22.1" />
-    <project path="vendor/infinix/X6833B" name="vendor_infinix_X6833B" remote="vannashcroft-cb" revision="lineage-22.1" />
+    <project path="device/infinix/X6833B"
+             name="android_device_infinix_X6833B"
+             remote="vannashcroft-gh"
+             revision="fifteen-bp1a" />
 
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-22.1" />
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-22.1" />
+    <project path="device/infinix/X6833B-kernel"
+             name="device_infinix_X6833B-kernel"
+             remote="vannashcroft-gh"
+             revision="lineage-22.1" />
+
+    <project path="vendor/infinix/X6833B"
+             name="vendor_infinix_X6833B"
+             remote="vannashcroft-cb"
+             revision="lineage-22.1" />
+
+    <project path="hardware/mediatek"
+             name="android_hardware_mediatek"
+             remote="lineageos"
+             revision="lineage-22.1" />
+
+    <project path="device/mediatek/sepolicy_vndr"
+             name="android_device_mediatek_sepolicy_vndr"
+             remote="lineageos"
+             revision="lineage-22.1" />
 </manifest>
