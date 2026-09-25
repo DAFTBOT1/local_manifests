@@ -34,4 +34,9 @@
              name="android_device_mediatek_sepolicy_vndr"
              remote="lineageos"
              revision="lineage-22.1" />
+
+    <project path="device/lineage/sepolicy"
+             name="android_device_lineage_sepolicy"
+             remote="lineageos"
+             revision="lineage-22.1" />
 </manifest>
