@@ -39,4 +39,9 @@
              name="android_device_lineage_sepolicy"
              remote="lineageos"
              revision="lineage-22.1" />
+
+    <project path="external/htop"
+         name="android_external_htop"
+         remote="lineageos"
+         revision="lineage-22.1" />
 </manifest>
