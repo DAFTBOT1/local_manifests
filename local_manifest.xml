@@ -12,6 +12,9 @@
 	<remote name="halcyonproject"
         fetch="https://github.com/halcyonproject"
         clone-depth="1" />
+	<remote name="MillenniumOSS"
+            fetch="https://github.com/MillenniumOSS"
+            clone-depth="1" />
 
 	
 
