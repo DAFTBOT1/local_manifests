@@ -15,6 +15,12 @@
     <project path="device/infinix/X6833B-kernel" name="android_device_infinix_X6833B-kernel" remote="akif-github" revision="sixteen-mck" />
     <project path="vendor/infinix/X6833B" name="proprietary_vendor_infinix_X6833B" remote="akif-github" revision="17.0" />
 
+    <!-- X678B (A17) -->
+    <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="daftbot" revision="17.0" />
+    <project path="device/infinix/X678B-kernel" name="android_device_infinix_X6833B-kernel" remote="akif-github" revision="sixteen-mck" />
+    <project path="vendor/infinix/X678B" name="android_vendor_infinix_X678B" remote="akif-github" revision="17.0" />
+    
+    
     <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="seventeen" />
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="seventeen" />
     <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
