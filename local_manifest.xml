@@ -17,7 +17,7 @@
 
     <!-- X678B (A17) -->
     <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="daftbot" revision="17.0" />
-    <project path="device/infinix/X678B-kernel" name="android_device_infinix_X6833B-kernel" remote="akif-github" revision="sixteen-mck" />
+    <project path="device/infinix/X678B-kernel" name="android_device_infinix_X678B-kernel" remote="akif-github" revision="sixteen-mck" />
     <project path="vendor/infinix/X678B" name="android_vendor_infinix_X678B" remote="akif-github" revision="17.0" />
     
     
