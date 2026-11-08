@@ -10,22 +10,21 @@
             fetch="https://github.com/akifakif32"
             clone-depth="1" />
 
+   <!-- X678B (A17) -->
+    <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="daftbot" revision="17.0" />
+    <project path="device/infinix/X678B-kernel" name="android_device_infinix_X678B-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
+    <project path="vendor/infinix/X678B" name="android_vendor_infinix_X678B" remote="akif-github" revision="17.0" />
+
     <!-- X6833B (A17) -->
     <project path="device/infinix/X6833B" name="android_device_infinix_X6833B" remote="daftbot" revision="17.0" />
     <project path="device/infinix/X6833B-kernel" name="android_device_infinix_X6833B-kernel" remote="akif-github" revision="sixteen-mck" />
     <project path="vendor/infinix/X6833B" name="proprietary_vendor_infinix_X6833B" remote="akif-github" revision="17.0" />
 
-    <!-- X678B (A17) -->
-    <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="daftbot" revision="17.0" />
-    <project path="device/infinix/X678B-kernel" name="android_device_infinix_X678B-kernel" remote="akif-github" revision="sixteen-mck" />
-    <project path="vendor/infinix/X678B" name="android_vendor_infinix_X678B" remote="akif-github" revision="17.0" />
-    
-    
     <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="seventeen" />
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="seventeen" />
-    <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
+    <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="seventeen" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="seventeen" />
-    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-qpr2" />
+    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="seventeen" />
 
     <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen-redesign" />
     <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
